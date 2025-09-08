@@ -1,0 +1,55 @@
+
+        NUMBER PLATE DETECTION AND FRAME SELECTION REPORT
+        ================================================
+        Generated: 2025-09-08 15:46:29
+        
+        INPUT SPECIFICATIONS:
+        - Video Path: /home/harsh/Downloads/Darsh/yolo_model_16epochs/yolo model testing/Assets /videoplayback.mp4
+        - Model Path: /home/harsh/Downloads/Darsh/yolo_model_16epochs/yolo model testing/Models/best .pt
+        - Output Directory: /home/harsh/Downloads/Darsh/yolo_model_16epochs/yolo model testing/output
+        - Font Path: /home/harsh/Downloads/Darsh/yolo_model_16epochs/yolo model testing/fonts/dealerplate california.otf
+        
+        VIDEO PROPERTIES:
+        - Resolution: 360x640
+        - Frame Rate: 30.00 FPS
+        - Total Frames: 977
+        - Duration: 32.57 seconds
+        
+        DETECTION RESULTS:
+        - Total Detections: 58
+        - Detection Rate: 59.31%
+        - Frames with Detections: 58/977
+        
+        QUALITY METRICS SUMMARY:
+        - Sharpness Range: 453.89 - 874.45
+        - Average Sharpness: 642.22
+        - Sharpness Std Dev: 99.26
+        
+        SELECTED BEST FRAME:
+        - Frame Index: 90
+        - Timestamp: 3.00 seconds
+        - Selection Method: sharpness
+        - Sharpness Score: 874.45
+        - Detection Confidence: 0.814
+        - Sharpness Rank: 1/58
+        - Confidence Rank: 2/58
+        
+        DETECTION BOX COORDINATES:
+        - X1: 115.2
+        - Y1: 274.9
+        - X2: 266.8
+        - Y2: 376.2
+        - Width: 151.6
+        - Height: 101.3
+        
+        ADDITIONAL METRICS:
+        - Plate Area: 15402.00
+- Mean Brightness: 104.23
+- Brightness Std: 77.21
+- Contrast: 77.21
+- Plate Sharpness: 3356.66
+
+RECOMMENDATIONS:
+- Selected frame shows good quality for text recognition.
+- Number plate region has been replaced with a blank white area and new text 'MH 18 EQ 0001' added.
+- Sharpness is above average + 1 standard deviation (excellent).

@@ -1,0 +1,44 @@
+{
+  "video_properties": {
+    "resolution": "360x640",
+    "frame_rate": "30.00 FPS",
+    "total_frames": 977,
+    "duration": "32.57 seconds"
+  },
+  "detection_results": {
+    "total_detections": 58,
+    "detection_rate": "59.31%",
+    "frames_with_detections": "58/977"
+  },
+  "quality_metrics_summary": {
+    "sharpness_range": "453.89 - 874.45",
+    "average_sharpness": "642.22",
+    "sharpness_std_dev": "99.26"
+  },
+  "selected_best_frame": {
+    "frame_index": 90,
+    "timestamp": "3.00 seconds",
+    "selection_method": "sharpness",
+    "sharpness_score": "874.45",
+    "detection_confidence": "0.814",
+    "sharpness_rank": "1/58",
+    "confidence_rank": "2/58"
+  },
+  "detection_box_coordinates": {
+    "x1": "115.2",
+    "y1": "274.9",
+    "x2": "266.8",
+    "y2": "376.2",
+    "width": "151.6",
+    "height": "101.3"
+  },
+  "additional_metrics": {
+    "plate_area": "15402.00",
+    "mean_brightness": "104.23",
+    "brightness_std": "77.21",
+    "contrast": "77.21",
+    "plate_sharpness": "3356.66"
+  },
+  "new_plate_number": "MH 18 EQ 0001",
+  "image_added": "/home/harsh/Downloads/Darsh/yolo_model_16epochs/yolo model testing/Assets /IND number plate.png"
+}
